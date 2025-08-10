@@ -101,14 +101,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Contact form handling
-    const contactForm = document.querySelector('.contact-form form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your inquiry! We will contact you soon.');
-            this.reset();
-        });
-    }
+    // const contactForm = document.querySelector('.contact-form form');
+    // if (contactForm) {
+    //     contactForm.addEventListener('submit', function(e) {
+    //         e.preventDefault();
+    //         alert('Thank you for your inquiry! We will contact you soon.');
+    //         this.reset();
+    //     });
+    // }
     
     // Add sparkle effect
     function createSparkle() {

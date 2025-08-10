@@ -265,7 +265,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email Us</h4>
-                            <p>allauddinsk4095@gmail.com.com</p>
+                            <p>allauddinsk4095@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -278,11 +278,11 @@
                 </div>
                 <div class="contact-form">
                     <h3>Send Us a Message</h3>
-                    <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <input type="tel" placeholder="Your Phone Number">
-                        <select required>
+                    <form action="https://formspree.io/f/mvgqdqlz" method="POST">
+                        <input type="text" placeholder="Your Name" required name="name">
+                        <input type="email" placeholder="Your Email" required name="email">
+                        <input type="tel" placeholder="Your Phone Number" name="phone">
+                        <select required name="required"
                             <option value="">Select Interest</option>
                             <option value="engagement">Engagement Rings</option>
                             <option value="mens">Men's Jewelry</option>
@@ -290,7 +290,7 @@
                             <option value="custom">Custom Design</option>
                             <option value="repair">Repair Services</option>
                         </select>
-                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                        <textarea rows="5" placeholder="Your Message" required name="message" ></textarea>
                         <button type="submit" class="cta-btn">Send Message</button>
                     </form>
                 </div>
